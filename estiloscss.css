@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
+
+
+
+
+    
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+    background: linear-gradient( to left ,rgb(85, 29, 175), rgba(24, 24, 107, 0.57), rgba(174, 16, 155, 0.138));
+    text-align:center;
+    background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+    background-repeat: 1;
+    color:#555;
+    font-family: 'Odibee Sans', cursive , sans-serif;
+    font-weight:300;
+    font-size:38px;
+    overflow:hidden;
+    
+}
+
+
+/*Estilos Calculadora*/
+.calculadora-grilla{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4,125px);
+    grid-template-rows: minmax(125px,auto) repeat();
+    margin-top: 3px;
+
+    
+    
+
+}
+
+/*Estilos Botones*/
+.calculadora-grilla > button {
+    cursor: pointer;
+    font-size: 4rem;
+    border: 3px solid #000;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 100px;
+    margin: 1px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+}
+.calculadora-grilla > button:hover{
+    background-color: rgb(161, 134, 202);
+    border:#000 3.5px;
+    transition: 0.5s ;   
+    color: white;
+}
+
+
+.output {
+    grid-column: 1/4;
+    display: flex;
+    background-color: rgba(34, 1, 30, 0.138);
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 35px;
+    border-radius: 10px solid #fff;
+}
+
+.display {
+    color: #000;
+    font-size: 3.75rem;
+    text-align: right;
+    width: 340px;
+    border-radius: 12px;
+    height: 50px;
+    font-family: 'Big Shoulders Stencil Display', cursive;    
+}
+
+.name{
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    width: 490px;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+}
+
+.fa-heart {
+    color: rgb(85, 29, 175);
+}
+
+
