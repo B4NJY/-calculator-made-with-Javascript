@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
 
-
-
-
-    
-
-
-
 body {
     padding: 0;
     margin: 0;
@@ -22,7 +15,6 @@ body {
     overflow:hidden;
     
 }
-
 
 /*Estilos Calculadora*/
 .calculadora-grilla{
@@ -54,6 +46,7 @@ body {
     align-content: center;
     margin: 5px;
 }
+
 .calculadora-grilla > button:hover{
     background-color: rgb(161, 134, 202);
     border:#000 3.5px;
@@ -61,7 +54,7 @@ body {
     color: white;
 }
 
-
+//Estilos de la Salida de la calculadora
 .output {
     grid-column: 1/4;
     display: flex;
@@ -76,6 +69,7 @@ body {
     border-radius: 10px solid #fff;
 }
 
+//Estilos Pantalla de calculadora
 .display {
     color: #000;
     font-size: 3.75rem;
@@ -86,6 +80,7 @@ body {
     font-family: 'Big Shoulders Stencil Display', cursive;    
 }
 
+//Estilos Pie de Pagina
 .name{
     background-color: #000;
     color: #fff;
