@@ -9,7 +9,7 @@ var opeActual = '';
 var opeAnterior = '';
 var operacion = undefined;
 
-
+//Botones
 botonNumeros.forEach(function(boton){
     boton.addEventListener('click', function(){
         agregarNumero(boton.innerText);
@@ -43,6 +43,7 @@ function agregarNumero(num){
     actualizarDisplay();
 }
 
+
 function selectOperacion(op){
     if (opeActual === '') return;
     if (opeAnterior !== ''){
@@ -53,6 +54,7 @@ function selectOperacion(op){
     opeActual = '';
 }
 
+//Funcion para realizar operaciones
 function calcular(){
     var calculo;
     const anterior = parseFloat(opeAnterior);
@@ -79,15 +81,16 @@ function calcular(){
     opeAnterior = '';
 }
 
+//Funcion Borrar
 function clear(){
     opeActual = '';
     opeAnterior = '';
     operacion = undefined;
 }
 
+//Boton actualizacion de Display
 function actualizarDisplay(){
-     result.value = opeActual;
-    
+     result.value = opeActual;    
 }
 
 
