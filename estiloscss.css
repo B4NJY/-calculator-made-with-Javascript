@@ -54,7 +54,7 @@ body {
     color: white;
 }
 
-//Estilos de la Salida de la calculadora
+/*Estilos de la Salida de la calculadora*/
 .output {
     grid-column: 1/4;
     display: flex;
@@ -69,7 +69,7 @@ body {
     border-radius: 10px solid #fff;
 }
 
-//Estilos Pantalla de calculadora
+/*Estilos Pantalla de calculadora*/
 .display {
     color: #000;
     font-size: 3.75rem;
@@ -80,7 +80,7 @@ body {
     font-family: 'Big Shoulders Stencil Display', cursive;    
 }
 
-//Estilos Pie de Pagina
+/*Estilos Pie de Pagina*/
 .name{
     background-color: #000;
     color: #fff;
